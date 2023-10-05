@@ -9,9 +9,10 @@ public class PlayerMovement : MonoBehaviour
     public Transform groundCheck;
     public LayerMask groundLayer;
 
+    public float speed = 5f;
+    public float jumpingPower = 8.5f;
+
     private float horizontal;
-    private float speed = 8f;
-    private float jumpingPower = 10f;
     private bool isFacingRight;
 
     // Update is called once per frame
@@ -39,7 +40,7 @@ public class PlayerMovement : MonoBehaviour
 
     private bool isGrounded()
     {
-        return Physics2D.OverlapCircle(groundCheck.position, 0.2f, groundLayer);
+        return Physics2D.OverlapCircle(groundCheck.position, 0.5f, groundLayer);
     }
 
     private void Flip()
