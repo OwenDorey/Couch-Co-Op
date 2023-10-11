@@ -1848,6 +1848,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: LevelDisplay
       objectReference: {fileID: 0}
+    - target: {fileID: 5048794659040237094, guid: cb36a135b233b744db0bb3deee142336, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 5048794659040237094, guid: cb36a135b233b744db0bb3deee142336, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -50
+      objectReference: {fileID: 0}
     - target: {fileID: 7506727122915454392, guid: cb36a135b233b744db0bb3deee142336, type: 3}
       propertyPath: m_Pivot.x
       value: 0
