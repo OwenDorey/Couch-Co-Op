@@ -23,7 +23,14 @@ public class LockPickup : MonoBehaviour
 
     public void LoadNextScene()
     {
-        StartCoroutine(LoadLevel(SceneManager.GetActiveScene().buildIndex + 1));
+        if (SceneManager.GetActiveScene().buildIndex == 5)
+        {
+            StartCoroutine(LoadLevel(0));
+        }
+        else
+        {
+            StartCoroutine(LoadLevel(SceneManager.GetActiveScene().buildIndex + 1));
+        }    
     }
 
     public void ReloadScene()
