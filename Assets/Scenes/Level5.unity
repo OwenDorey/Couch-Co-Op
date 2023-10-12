@@ -846,10 +846,14 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4733828697733677265, guid: cb36a135b233b744db0bb3deee142336, type: 3}
       propertyPath: m_text
-      value: 'Level 5
+      value: 'Level 5 (Final)
 
 
 '
+      objectReference: {fileID: 0}
+    - target: {fileID: 5762601053279691893, guid: cb36a135b233b744db0bb3deee142336, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 300
       objectReference: {fileID: 0}
     - target: {fileID: 7506727122915454392, guid: cb36a135b233b744db0bb3deee142336, type: 3}
       propertyPath: m_Pivot.x

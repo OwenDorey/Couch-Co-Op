@@ -3666,7 +3666,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5049523955407924479, guid: a3ec4cfcd4695fb4eb48a4f640509f6e, type: 3}
       propertyPath: elevatorDistance
-      value: 12.5
+      value: 10.5
       objectReference: {fileID: 0}
     - target: {fileID: 5058950988529172963, guid: a3ec4cfcd4695fb4eb48a4f640509f6e, type: 3}
       propertyPath: m_Name
